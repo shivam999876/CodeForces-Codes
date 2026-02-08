@@ -1,0 +1,1 @@
+#include <bits/stdc++.h>using namespace std;  void solve() {    long long a, b, c;    if (!(cin >> a >> b >> c)) return;    cout << (c + 1) / 2 * a - c / 2 * b << '\n';} int main(void) {        ios::sync_with_stdio(false);    cin.tie(0);        int t;     if (!(cin >> t)) return 0;    while (t--) solve();    return 0;}
