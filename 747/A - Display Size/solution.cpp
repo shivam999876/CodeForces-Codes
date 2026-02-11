@@ -1,0 +1,1 @@
+#include <iostream>#include <cmath> int main() {    int n;    if (!(std::cin >> n)) return 0;    int a = std::sqrt(n);    while (n % a != 0) {        a--;    }    int b = n / a;     std::cout << a << " " << b << std::endl;     return 0;}
